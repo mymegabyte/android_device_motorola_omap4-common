@@ -49,8 +49,7 @@ PRODUCT_PACKAGES += \
     audio.primary.umts_spyder \
     audio.primary.targa \
     audio.usb.default \
-    audio.a2dp.default \
-    audio.hdmi.omap4
+    audio.a2dp.default
 
 PRODUCT_PACKAGES += \
     audio_policy.omap4 \
