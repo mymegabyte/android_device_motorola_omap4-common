@@ -283,6 +283,3 @@ PRODUCT_LOCALES += en_US
 # stuff specific to ti OMAP4 hardware
 #$(call inherit-product, hardware/ti/omap4xxx/omap4.mk)
 $(call inherit-product, hardware/ti/omap4xxx/security/Android.mk)
-
-PRODUCT_COPY_FILES += \
-    $(COMMON_FOLDER)/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
